@@ -1,2 +1,152 @@
-HALOO BANG
-Hallo dee
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="wrapper">
+            <div class="logo"><a href="">Raviyan</a></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#tutors">Tutors</a></li>
+                    <li><a href="#Partners">Partners</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <li><a href="" class="tbl-biru">Sign Up</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+
+    <div class="wrapper">
+        <!-- untuk home -->
+        <section id="home">
+            <img src="https://img.freepik.com/free-vector/web-development-programmer-engineering-coding-website-augmented-reality-interface-screens-developer-project-engineer-programming-software-application-design-cartoon-illustration_107791-3863.jpg?w=740&t=st=1666247976~exp=1666248576~hmac=0c6703812a81e5508df3d4903150dabe31b6d3fda5853e5e4aed50cf031d33d0"
+                alt="">
+            <div class="kolom">
+                <p class="deskripsi">Belajar Programming di rumah aja</p>
+                <h2>Tetap Sehat,Tetap Semangat</h2>
+                <p>"Jika kamu tak dapat melakukan hal yang besar, lakukan dari hal kecil namun dengan cara yang hebat"
+                    -Napolean Hill.</p>
+                <p><a href="" class="tbl-pink">Pelajari Lebih Lanjut</a></p>
+            </div>
+        </section>
+
+        <!-- untuk courses -->
+        <section id="courses">
+            <div class="kolom">
+                <p class="deskripsi">You Will Need</p>
+                <h2>Online Courses</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque illo debitis at perferendis
+                    necessitatibus quibusdam quaerat, culpa natus repellendus veritatis?</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque illo debitis at perferendis
+                    necessitatibus quibusdam quaerat, culpa natus repellendus veritatis?</p>
+                <p><a href="" class="tbl-biru">Pelajari Lebih Lanjut</a></p>
+            </div>
+            <img src="https://img.freepik.com/free-vector/online-learning-isometric-concept_1284-17947.jpg?w=740&t=st=1666251255~exp=1666251855~hmac=3f43c69355c22744fecd388d5ab13a1bebeca1b1cee75d4d24e873473bd11727"
+                alt="">
+        </section>
+
+        <section id="tutors">
+            <div class="tengah">
+                <div class="kolom">
+                    <p class="deskripsi">Our Top tutors</p>
+                    <h2>Tutors</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, facilis?</p>
+                </div>
+                <div class="tutor-list">
+                    <div class="kartu-tutor">
+                        <img src="https://www.diethelmtravel.com/wp-content/uploads/2016/04/bill-gates-wealthiest-person.jpg"
+                            alt="">
+                        <p>Jasson Lee Skort</p>
+                    </div>
+                    <div class="kartu-tutor">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/23/Photo_portrait_PP.jpg" alt="">
+                        <p>Jasson Lee Skort</p>
+                    </div>
+                    <div class="kartu-tutor">
+                        <img src="https://www.diethelmtravel.com/wp-content/uploads/2016/04/bill-gates-wealthiest-person.jpg"
+                            alt="">
+                        <p>Jasson Lee Skort</p>
+                    </div>
+                    <div class="kartu-tutor">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/2/23/Photo_portrait_PP.jpg" alt="">
+                        <p>Jasson Lee Skort</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="Partners">
+            <div class="tengah">
+                <div class="colom">
+                    <p class="deskripsi">our Partners</p>
+                    <h2>Partner</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo sequi sint voluptatum modi officia
+                        quia, expedita et praesentium eius odio.</p>
+                </div>
+                <div class="partners-list">
+                    <div class="kartu-partners">
+                        <img src="https://t3.ftcdn.net/jpg/01/63/51/98/360_F_163519830_xWUescjSKgNmVofIqD0dvWzMclz7t0hg.jpg"
+                            alt="">
+                    </div>
+                    <div class="kartu-partners">
+                        <img src="https://image.shutterstock.com/image-vector/college-academy-vintage-retro-logo-260nw-1616847862.jpg"
+                            alt="">
+                    </div>
+                    <div class="kartu-partners">
+                        <img src="https://t4.ftcdn.net/jpg/04/91/76/63/360_F_491766315_8X3ktK0lFMXra7ACP4Ff6gWK455goor0.jpg"
+                            alt="">
+                    </div>
+                    <div class="kartu-partners">
+                        <img src="https://img.myloview.com/stickers/university-logo-template-400-142310567.jpg" alt="">
+                    </div>
+                    <div class="kartu-partners">
+                        <img src="https://img.myloview.com/stickers/university-college-logo-vector-400-175290752.jpg"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div id="contact">
+        <div class="wrapper">
+            <div class="footer">
+                <div class="footer-section">
+                    <h3>Rumah Raviyan</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, ea?</p>
+                </div>
+                <div class="footer-section">
+                    <h3>About</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, ea?</p>
+                </div>
+                <div class="footer-section">
+                    <h3>contact</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, ea?</p>
+                    <p>Kode pos 19222</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Social</h3>
+                    <p><b>youtube: </b>Programming di rumah aja</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="copyright">
+        <div class="wrapper">
+            &copy; 2020. <b>Rumah Ravi</b>All Right Reserved.
+        </div>
+    </div>
+</body>
+
+</html>
