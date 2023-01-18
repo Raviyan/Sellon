@@ -1,2 +1,47 @@
-Perknalkan
-Perkenalkan nama sya anu bang,, saya baru pertama kali ikut sebuah project
+<html>
+
+<head>
+    <title>RAVIYAN</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body >
+    <div class="container">
+        <!-- NAVIGASION BAR -->
+        <div class="container-navbar">
+            <ul class="ul-navbar">
+                <li class="li-navbar">
+                    <a href="#" class="a-navbar">HOME</a>
+                </li>
+                <li class="li-navbar">
+                    <a href="about.html" class="a-navbar">ABOUT ME</a>
+                </li>
+                <li class="li-navbar">
+                    <a href="contact.html" class="a-navbar">CONTACT ME</a>
+                </li>
+            </ul>
+        </div>
+        <!-- NAVIGATION BAR SELESAI -->
+
+        <!-- CONTENT 1 -->
+        <div class="container-content">
+            <a href="https://www.youtube.com/watch?v=ghaktA6ufaw" class="a-content">
+                <img src="image2.jpeg" class="img-content" />
+                <p>MAMPIR KE YOUTUBE YU!</p>
+                <!-- Ini dari java scrip -->
+                <div id="biodata"></div>
+            </a>
+
+        </div>
+        <!-- CONTENT ! END -->
+
+        <!-- FOOTER -->
+        <div class="container-footer">
+            <h1 class="h1-footer">Webset ini dibuat sepenuh hati</h1>
+        </div>
+        <!-- FOOTER END -->
+    </div>
+    <script src="data.js" type="text/javascript" />
+</body >
+
+</html>
